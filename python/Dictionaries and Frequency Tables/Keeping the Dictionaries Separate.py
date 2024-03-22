@@ -5,7 +5,6 @@ c_ratings_percentages = {}
 
 for content in content_ratings:
     proportion = (content_ratings[content] / total_number_of_apps)
-    c_ratings_proportions[content] = proportion
     c_ratings_percentages[content] = proportion * 100
 
 
